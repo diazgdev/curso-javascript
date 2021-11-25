@@ -1,8 +1,8 @@
 let color = prompt('¿De qué color es la pantera?');
 
-let pantera = document.getElementById('imagen');
+let colorMinus = color.toLowerCase();
 
-if (color == 'rosa' || color == 'Rosa') {
+if (colorMinus == 'rosa') {
   alert('Muy bien!!')
   document.getElementById('imagen').style.display = "inline";
 } else {
